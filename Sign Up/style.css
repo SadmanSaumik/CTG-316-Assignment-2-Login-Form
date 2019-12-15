@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    background-image: linear-gradient(135deg, rgba(55,221,149,1) 0%, rgba(21,215,140,0.6712898511565133) 50%, rgba(4,177,200,0.10968137254901966) 100%), url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 55%;
+    height: 100%;
+}
+.right {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#FEF6FB;   
+}
+.wrapper{
+
+}
+.wrapper h1 {
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+.form{
+    padding: 8px 0;
+
+}
+.form input{
+    width:100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    padding-left: 0;
+    font-family: 'Poppins'
+
+}
+.form input:focus{
+    outline: none;
+    border-bottom: 3px solid lightgreen;
+   
+
+}
+.label-name{
+font-size: 14px;
+font-weight: 600; 
+}
+.content-name{
+
+}
+.terms{
+    margin-top: 10px;
+}
+.terms a{
+    color: black;
+}
+
+}
+.checkbox{
+
+}
+.agree{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.btn {
+        width: 40%;
+        height: 40px;
+        margin: 10px 0;
+        background-color: transparent;
+        cursor: pointer;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        border: 1px solid lightblue;
+        font-family: 'poppins';
+        text-align: center;
+       
+}
+.btn:hover{
+    color: white;
+    background: linear-gradient(135deg, rgba(55,221,149,1) 0%, rgba(21,215,140,0.6712898511565133) 50%, rgba(4,177,200,0.10968137254901966) 100%);
+    border: lightgreen; 
+}
+
+.sign-terms{
+    
+}
+.signin{
+    font-size: 14px;
+    
+}
+.signin a{
+    color: black;
+
+}
